@@ -1,0 +1,62 @@
+# IPython log file
+
+get_ipython().magic(u'guiref')
+from nltk.book import *
+text 1
+text1
+text1, text2
+text1.concordance("monstrous")
+get_ipython().magic(u'quickref')
+get_ipython().magic(u'save test_1')
+get_ipython().magic(u'save ')
+get_ipython().magic(u'save test_1.py')
+get_ipython().magic(u'logstart [nltk_testing]')
+text2.concordance("love")
+text2.concordance("affection")
+text3.concordance("lived")
+text5.concordance("shit")
+text1.similar("monstrous")
+text2.similar("monstrous")
+common = common_contexts
+common = .common_contexts
+text2.common_contexts("monstrous")
+text1.common_contexts("monstrous")
+text1.common_contexts(["monstrous","very"])
+text1.common_contexts(["monstrous","very"])
+text2.common_contexts(["monstrous","very"])
+get_ipython().magic(u'quickref')
+get_ipython().magic(u'help')
+get_ipython().magic(u'guiref')
+get_ipython().magic(u'guiref')
+text4.dispersion_plot(["citizens","democracy","freedom","duties","America"])
+len(text3)
+len(text2)
+len(text4)
+set(text3)
+sorted(set(text3))
+from __future__ import division
+len(text3) / len(set(text3))
+from __future__ import division
+len(text3) / len(set(text3))
+text3.count("smote")
+100 * text3.count('a') / len(text4)
+100 * text4.count('a') / len(text4)
+100 * text3.count('a') / len(text3)
+def lexical_diversity(text):
+    return len(text) / len(set(text))
+
+def percentage(count, total):
+    return 100 * count / total
+
+lexical_diversity(text3)
+lexical_diversity(text5)
+percentage(4,5)
+percentage(text4.count('a), len(text4))
+percentage(text4.count('a'), len(text4))
+sent1
+sent2
+len(sent1)
+lexical_diversity(sent1)
+sent3
+fdist1 = FreqDist(text1)
+fdist1.plot(50, cumulative=True)
